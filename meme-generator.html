@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Meme Generator</title>
+    <link rel="stylesheet" href="meme-generator.css">
+</head>
+<body>
+    <h1>Cool Meme Generator</h1>
+    <!-- change the p tags into divs--> -->
+    <p>
+        <h3>Top Texts</h3>
+        <input type="text" id="top-text" placeholder="Type in top text"></input>
+    </p>
+
+    <p>
+        <h3>Bottom Text</h3>
+        <input type="text" id="bottom-text" placeholder="Type in bottom text"></input>
+    </p>
+
+    <p>
+        <input type="file" id="image-input" accept="image/*">
+    </p>
+
+    <p>
+        <button id="generate-button">Make Meme!</button>
+    </p>
+
+    <p>
+        <canvas id="meme-canvas"></canvas>
+    </p>
+
+
+  <script src="meme-generator.js"></script>  
+</body>
+</html>
